@@ -1,0 +1,27 @@
+{
+  "name": "labbish",
+  "version": "1.0.0",
+  "main": "index.js",
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "css-modules": "^0.3.0",
+    "postcss-modules": "^3.2.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.10"
+  },
+  "scripts": {
+    "build": "parcel ./src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
