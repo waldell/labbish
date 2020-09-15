@@ -2,3 +2,10 @@
     color: hotpink;
     display: grid;
 }
+.columns{
+    column-count: 3;
+    column-gap: 10px; 
+}
+.same {
+    break-inside: avoid;
+}
